@@ -8,9 +8,8 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'OCR A Std', monospace;
-  color: white;
+  color: black;
   text-shadow: 2px 2px 5px red;
-  background: url('images/nycsubwaymapgif.gif') no-repeat;
   background-size: cover;
 }
 /* Link Styles */
@@ -58,9 +57,10 @@ a:hover {
 }
 
 header {
+  width: 100%;
   text-align: center;
-  background: url('images/nycme3.jpg') no-repeat top center ;
-  background-size: contain;
+  background: url('images/nycsidewalkdowntown.png') no-repeat top center ;
+  background-size: 100%;
   background-position: center;
   overflow: hidden;
   padding-top: 60px;
@@ -88,8 +88,9 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background-color: inherit;
-  color: yellow;
+  background-color: maroon;
+  color: white;
+  text-shadow: 2px 2px 5px black;
 }
 .card {
   margin: 30px;
@@ -156,14 +157,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: grey;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: maroon;
 }
 
 footer {
@@ -250,4 +251,6 @@ a.social:hover {
   }
 
 }
-
+.experience{
+  text-align: center;
+}
